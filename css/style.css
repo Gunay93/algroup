@@ -44,7 +44,7 @@ p{margin:0}
     position: absolute;
 }
 #background{
-    background-image: url('/img/slider-back.jpg');
+    background-image: url('img/slider-back.jpg');
     background-size: cover;
     padding: 100px 0;
 }
@@ -76,14 +76,14 @@ p{margin:0}
     display: inline-block;
     content: "";
     position: absolute;
-    background: no-repeat center bottom url(/img/f-blab-white.png);
+    background: no-repeat center bottom url(img/f-blab-white.png);
     width: 30px;
     height: 16px;
     top: -16px;
     left: calc(50% - 15px);
 }
 .category-list li.active .category-list-text{background-color:#535552}
-.category-list li.active .category-list-text:before{background: no-repeat center bottom url(/img/f-blab-gray.png);}
+.category-list li.active .category-list-text:before{background: no-repeat center bottom url(img/f-blab-gray.png);}
 .category-list li.active .category-list-text{color:white}
 .category-list li.active .category-list-text:before{color: #535552}
 .nav-link:hover{color:#e31e24}
