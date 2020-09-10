@@ -145,21 +145,21 @@ p{margin:0}
     z-index: -1;
     content: '';
     display: block;
-    border: 5px solid #c0c30e;
+    border: 5px solid #0db751;
 }
 .ribbon-top-left::before {
     top: 0;
-    right: 0;
+    right: 12px;
 }
 .ribbon .discount-label {
-    background-color: #d1d50d;
-    font: 11px/1 'FTN_medium';
+    background-color: #0dd55d;
+    font: 15px/1 'FTN_medium';
 }
 .ribbon span {
     position: absolute;
     display: block;
     width: 225px;
-    padding: 15px 0;
+    padding: 7px 0;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     color: #fff;
     text-shadow: 0 1px 1px rgba(0,0,0,.1);
@@ -172,7 +172,7 @@ p{margin:0}
     transform: rotate(-45deg);
 }
 .ribbon-top-left::after {
-    bottom: 0;
+    bottom: 12px;
     left: 0;
 }
 .new-label2:after{content:none}
