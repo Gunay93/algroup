@@ -126,8 +126,8 @@ p{margin:0}
     height: 40px;
 }
 .ribbon {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 130px;
     overflow: hidden;
     position: absolute;
     z-index: 1;
@@ -149,16 +149,16 @@ p{margin:0}
 }
 .ribbon-top-left::before {
     top: 0;
-    right: 12px;
+    right: 14px;
 }
 .ribbon .discount-label {
     background-color: #0dd55d;
-    font: 15px/1 'FTN_medium';
+    font: 12px/1 'FTN_heavy';
 }
 .ribbon span {
     position: absolute;
     display: block;
-    width: 225px;
+    width: 180px;
     padding: 7px 0;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     color: #fff;
@@ -167,13 +167,13 @@ p{margin:0}
     text-align: center;
 }
 .ribbon-top-left span {
-    right: -25px;
-    top: 40px;
+    right: -15px;
+    top: 29px;
     transform: rotate(-45deg);
 }
 .ribbon-top-left::after {
-    bottom: 12px;
-    left: 0;
+    bottom: 24px;
+    left: 0px;
 }
 .new-label2:after{content:none}
 #links{padding:15px 0}
