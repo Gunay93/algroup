@@ -1,4 +1,4 @@
-$('.carousel-product').owlCarousel({
+$('.carousel-product,.carousel-brands').owlCarousel({
     loop:true,
     autoplay: true,
     margin:9,

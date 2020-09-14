@@ -190,7 +190,7 @@ p{margin:0}
 }
 #links ul li a:hover{color: #e31e24;border-bottom:1px dashed #e31e24;}
 #links p{color:black;font-size: 14px;margin:0}
-.carousel-doors,.carousel-parquet,#useful{background-color:#f7f7f9}
+.carousel-doors,.carousel-parquet,#useful,#price{background-color:#f7f7f9}
 .flexable {
     display: -ms-flexbox;
     display: flex;
@@ -273,6 +273,24 @@ p{margin:0}
     padding: 14px;
 }
 .owl-carousel .owl-nav.disabled{display:block}
+#brands .owl-carousel .owl-nav.disabled,#brands .owl-dots{display:none}
+#brands img{
+    height:100px;
+    object-fit: contain;
+    padding: 0 40px
+}
+.brendler {
+    display: block;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.3;
+    transition: 0.3s;
+}
+.brendler:hover {
+    -webkit-filter: none;
+    filter: none;
+    opacity: 1;
+}
 .owl-picture img {
     height: 300px;
     object-fit: cover;
